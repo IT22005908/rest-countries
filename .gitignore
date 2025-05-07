@@ -1,0 +1,43 @@
+# =====================================
+# General
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Coverage and test reports
+coverage/
+.nyc_output/
+jest-html-reporters-*.html
+
+# Optional npm cache directory
+.npm/
+
+# OS-specific
+*.swp
+
+# Logs
+logs
+*.log
+log.txt
